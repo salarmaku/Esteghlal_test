@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+}
+form{
+    background-color: rgb(109, 89, 89);
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 20px;
+    margin: 150px 100px 100px 100px;
+    padding: 20px;
+
+}
+
+.address {
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: aliceblue;
+
+}
+
+.weight{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.height{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.age{
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.submitbtn{
+    width: 100px ;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color:green;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+.removebtn{
+    width: 100px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+    color:red;
+    padding: 10px;
+    text-align: center;
+    margin: 20px 0 0 0;
+}
+
+

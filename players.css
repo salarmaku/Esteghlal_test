@@ -1,0 +1,91 @@
+body{
+    font-family: "vazir", sans-serif;
+    direction: rtl;
+    margin: 0;
+    background-image: url("img/Jowhareh_galleries_5_poster_85f54e32-eec7-4bdb-a1f5-b7db3d8c1bf1.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+.kol{
+    width: 1000px;
+    height: 3000px;
+    background-color: rgba(0 , 0, 0,0.8);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    display: flex;
+    margin: auto;
+}
+
+.rast{
+    width: 50%;
+    border: 2px solid wheat;
+    display: inline;
+    color:wheat;
+    margin: 20px ;
+    padding: 10px;
+}
+
+.chap{
+    width: 50%;
+    border: 2px solid wheat;
+    display: inline;
+    color: aliceblue;
+    margin: 20px;
+    padding: 10px;
+}
+
+.foo{
+    height: 400px;
+    padding: 10px;
+}
+
+.voll{
+    height: 400px;
+    padding: 10px;
+}
+
+.bascket{
+    height: 300px;
+    padding: 10px;
+}
+
+.kosh{
+    height: 300px;
+    padding: 10px;
+}
+
+.power{
+    height: 200px;
+    padding: 10px;
+}
+
+.swi{
+    height:200px;
+    padding: 10px;
+}
+
+.ok{
+    height: 400px;
+    border: 2px solid wheat;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.sta{
+    width: 200px;
+    height: 50px;
+    border:2px solid black;
+    border-radius: 5px;
+    color: blue;
+    background-color: gray;
+    text-align: center;
+    padding: 30px 0 0 0 ;
+    margin: 20px 75px 70px 40px;
+
+}

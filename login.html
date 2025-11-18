@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>login</title>
+</head>
+<body>
+    <form>
+        <h1 style="direction: rtl;">فرم ثبت نام باشگاه استقلال</h1>
+        name:<br>
+        <input id="name" type="text" style="border: 2px solid white; border-radius:10px; "><br>
+        last name:<br>
+        <input id="lastname" type="text" style="border: 2px solid white; border-radius:10px; "><br>
+        father name:<br>
+        <input id="fathername" type="text" style="border: 2px solid white; border-radius:10px; "><br>
+        <br>
+        <select id="city">
+            <optgroup label="آذربایجان غربی" style="border: 2px solid white; border-radius:10px; ">
+                <option value="ماکو value=">ماکو</option>
+                <option value="خوی">خوی</option>
+                <option value="ارومیه">ارومیه</option>
+                <option value="پیرانشهر">پیرانشهر</option>
+                <option value="سردشت">سردشت</option>
+                <option value="میانه">میانه</option>
+                <option value="سایر">سایر</option>
+            </optgroup>
+         
+            <optgroup label="آذربایجان شرقی" style="border: 2px solid white; border-radius:10px; ">
+                <option value="تبریز">تبریز</option>
+                <option value="صوفیان">صوفیان</option>
+                <option value="سراب">سراب</option>
+                <option value="مغان">مغان</option>
+                <option value="بستان آباد">بستان آباد</option>
+                <option value="سایر1">سایر</option>
+            </optgroup>
+        
+            <optgroup label="اردبیل" style="border: 2px solid white; border-radius:10px; ">
+                <option value="اردبیل">اردبیل</option>
+                <option value="نیر">نیر</option>
+                <option value="هیر">هیر</option>
+                <option value="سرعین">سرعین</option>
+                <option value="مشکین شهر">مشکین شهر</option>
+                <option value="سایر2">سایر</option>
+            </optgroup>
+        </select> 
+            <br><br>
+            <textarea id="address" type = "text" placeholder="آدرس دقیق را وارد کنید"></textarea>
+            <textarea id="weight" type = "number" placeholder="وزن "></textarea>
+            <textarea id="height" type = "number" placeholder="قد "></textarea>
+            <textarea id="age" type = "number" placeholder="سن"></textarea>
+            <button id="submitbtn" type="button">ثبت اطلاعات</button>
+            <button id="removebtn" type="button">حذف اطلاعات</button>
+       
+
+    </form>
+
+    <script src="esteghlal.js"></script>
+    <script src="login.js"></script>
+    <script src="players.js"></script>
+</body>
+</html>
